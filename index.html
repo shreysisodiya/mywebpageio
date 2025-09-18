@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><button class="nav-link active" data-nav-link>About Me</button></li>
+                <li><button class="nav-link" data-nav-link>Portfolio</button></li>
+                <li><button class="nav-link" data-nav-link>Projects</button></li>
+                <li><button class="nav-link" data-nav-link>Contact</button></li>
+                <li><button class="nav-link" data-nav-link>Location</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="photo-frame">
+                <img src="images/profile.jpg" alt="Shrey Pratap Sisodiya">
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/shrey-sisodiya/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/shreysisodiya"><i class="fab fa-github"></i></a>
+                <a href="https://www.kaggle.com/shreysisodiya"><i class="fab fa-kaggle"></i></a>
+                <a href="https://www.instagram.com/shreysisodiya/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="personal-info">
+                <div class="info-item">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <p><strong>Name:</strong> <strong>SHREY PRATAP SISODIYA</strong></p>
+                </div>
+                <div class="info-item">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <p><strong>Email:</strong> shrey.sisodiya2022@sidtm.edu.in</p>
+                </div>
+                <div class="info-item">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p><strong>Phone:</strong> +919650966875</p>
+                </div>
+                <div class="info-item">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <p><strong>Location:</strong> Greater Noida, Uttar Pradesh, 201310</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <article class="page active" data-page="About Me">
+                <section>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </div>
+                        <h2>About Me</h2>
+                    </div>
+                    <p>Dynamic professional with over 4 years of experience as Data Analyst and Business Analyst. Skilled in translating business requirements into data-driven solutions to improve client satisfaction and profitability.</p>
+
+                    <h3 class="sub-heading">What I Do</h3>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <ion-icon name="stats-chart-outline"></ion-icon>
+                            <h3>Dashboard Designing</h3>
+                            <p>My core proficiency lies in utilizing the Microsoft Power BI and Excel ecosystem to design and deploy compelling interactive dashboards, including advanced DAX functions and Row-Level Security (RLS).</p>
+                        </div>
+                        <div class="feature-card">
+                            <ion-icon name="analytics-outline"></ion-icon>
+                            <h3>Data Analytics</h3>
+                            <p>I am a passionate data enthusiast with a keen eye for leveraging data-driven insights to solve complex business problems, transforming raw data into actionable knowledge.</p>
+                        </div>
+                        <div class="feature-card">
+                            <ion-icon name="code-slash-outline"></ion-icon>
+                            <h3>Data Science</h3>
+                            <p>I am expanding my skill set into Machine learning and Deep Learning to apply advanced neural network architectures and solve complex, real-world problems.</p>
+                        </div>
+                        <div class="feature-card">
+                            <ion-icon name="laptop-outline"></ion-icon>
+                            <h3>Web Designing</h3>
+                            <p>Building responsive and intuitive user interfaces with modern HTML, CSS, and JavaScript to create engaging web experiences.</p>
+                        </div>
+                        <div class="feature-card">
+                            <ion-icon name="server-outline"></ion-icon>
+                            <h3>Database Management</h3>
+                            <p>Proficient in SQL, including joins, aggregate functions, subqueries, and advanced window functions for complex data manipulation.</p>
+                        </div>
+                        <div class="feature-card">
+                            <ion-icon name="tennisball-outline"></ion-icon>
+                            <h3>Sports</h3>
+                            <p>Passionate about sports, I enjoy the strategic thinking of indoor games like Chess and the dynamic energy of outdoor sports like Cricket and Badminton.</p>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="page" data-page="Portfolio">
+                <section>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="document-text-outline"></ion-icon>
+                        </div>
+                        <h2>Resume</h2>
+                    </div>
+
+                    <a href="assets/pdf/shreypratapsisodiyaresume.pdf" download class="button download-btn">
+                        <ion-icon name="download-outline"></ion-icon>
+                        <span>Download Resume</span>
+                    </a>
+
+                    <!-- Experience Section -->
+                    <div class="title-wrapper sub-title">
+                        <div class="icon-box">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <div class="timeline-main-content">
+                                <img src="C:\Users\shrey\OneDrive\Desktop\logo\capgemini.png" alt="Capgemini Logo" class="timeline-logo-large">
+                                <div class="timeline-text-content">
+                                    <h4 class="h4 timeline-item-title">Delivery PMO Consultant – CPRD Sector</h4>
+                                    <span>Jan 2024 – Jan’2025</span>
+                                    <p class="timeline-text"><strong>Capgemini India, Bengaluru, India</strong></p>
+                                </div>
+                            </div>
+                            <ul class="timeline-duties">
+                                <li>Collaborated with service line leads, delivery managers, and international clients to consolidate workforce data for demand-supply mapping, attrition tracking, and forecasting headcount requirements.</li>
+                                <li>Streamlined reporting by integrating Salesforce CRM, JIRA, and staffing data into centralized Power BI dashboards, accelerating executive reporting cycles by 40%.</li>
+                                <li>Partnered with global talent acquisition to monitor hiring progress, open demands, and fulfillment ratios, supporting strategic workforce planning.</li>
+                                <li>Developed interactive Power BI dashboards using Power Query and advanced DAX, enhancing data precision by 25% and enabling real-time insights into PCR and resource metrics.</li>
+                                <li>Improved timecard governance through MIS reporting and Excel analytics, reducing timesheet discrepancies by 15% via proactive issue resolution.</li>
+                                <li>Conducted research on market trends and competitor offerings to provide insights that influence product strategy and business decisions.</li>
+                                <li>Identified potential risks related to project scope, timelines, or resources during requirement analysis and propose mitigation strategies.</li>
+                            </ul>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-main-content">
+                                <img src="C:\Users\shrey\OneDrive\Desktop\logo\capgemini.png" alt="Capgemini Logo" class="timeline-logo-large">
+                                <div class="timeline-text-content">
+                                    <h4 class="h4 timeline-item-title">Business Analyst – Singapore Airlines</h4>
+                                    <span>Apr 2022 – Nov 2023</span>
+                                    <p class="timeline-text"><strong>Capgemini India, Bengaluru, India</strong></p>
+                                </div>
+                            </div>
+                            <ul class="timeline-duties">
+                                <li>Collaborated with Scrum Masters to prioritize and refine user stories during sprint planning and stand-ups, ensuring smooth Agile execution and timely delivery.</li>
+                                <li>Gathered comprehensive requirements from stakeholders, converting them into detailed user stories aligned with Salesforce CRM capabilities.</li>
+                                <li>Coordinated with automation and manual testing teams during SIT and UAT phases to address issues, ensuring quality and adherence to business needs.</li>
+                                <li>Created visual workflow diagrams to facilitate better understanding between developers, architects, and testers.</li>
+                                <li>Monitored testing progress using tools like Zephyr, ensuring transparency and timely issue resolution.</li>
+                            </ul>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-main-content">
+                                <img src="C:\Users\shrey\OneDrive\Desktop\logo\wipro.png" alt="Wipro Logo" class="timeline-logo-large">
+                                <div class="timeline-text-content">
+                                    <h4 class="h4 timeline-item-title">Technical Consultant – MS Exchange Online</h4>
+                                    <span>Jun 2018 – Nov 2019</span>
+                                    <p class="timeline-text"><strong>Wipro Technologies, New Delhi, India</strong></p>
+                                </div>
+                            </div>
+                            <ul class="timeline-duties">
+                                <li>Designed and proposed Microsoft 365/O365 solutions, integrating client feedback to tailor offerings and enhance business alignment.</li>
+                                <li>Supported sales teams in identifying new business opportunities and end-user engagement to drive solution adoption.</li>
+                                <li>Conducted training sessions to demonstrate Microsoft 365 capabilities, driving user adoption and highlighting business benefits.</li>
+                                <li>Planned and executed migration strategies from legacy systems to Microsoft 365, ensuring seamless transitions and client satisfaction.</li>
+                                <li>Provided pre- and post-sales support to ensure successful onboarding and issue resolution.</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <!-- Education Section -->
+                    <div class="title-wrapper sub-title">
+                        <div class="icon-box">
+                            <ion-icon name="school-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <div class="timeline-main-content">
+                                <img src="C:\Users\shrey\OneDrive\Desktop\logo\Symbiosis institute of digital and telecom Management.png" alt="Symbiosis Logo" class="timeline-logo-large">
+                                <div class="timeline-text-content">
+                                    <h4 class="h4 timeline-item-title">MBA - Symbiosis Institute of Digital and Telecom Management, SIU</h4>
+                                    <span>2020 — 2022</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-duties">
+                                <li>Specialization in Systems and Finance.</li>
+                                <li>Led the social media strategy for European Horizons, a transatlantic student think-tank.</li>
+                            </ul>
+                        </li>
+                        <li class="timeline-item">
+                            <div class="timeline-main-content">
+                                <img src="images/Shaheed Sukhdev college of business studies.jpeg" alt="Shaheed Sukhdev College Logo" class="timeline-logo-large">
+                                <div class="timeline-text-content">
+                                    <h4 class="h4 timeline-item-title">B.Tech, Shaheed Sukhdev College of Business Studies, DU</h4>
+                                    <span>2013 — 2017</span>
+                                </div>
+                            </div>
+                            <ul class="timeline-duties">
+                                <li>Specialization in Computer Science.</li>
+                                <li>Served as Organizing Committee Member of Kriti – The Art Society at Shaheed Sukhdev College of Business Studies.</li>
+                                <li>Successfully organized ’Alla Prima’, the annual cultural and art festival, attended by 500+ students from Delhi University.</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+            </article>
+
+            <article class="page" data-page="Projects">
+                <section>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="build-outline"></ion-icon>
+                        </div>
+                        <h2>Projects</h2>
+                    </div>
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="data-analytics">Data Analytics</button>
+                        <button class="filter-btn" data-filter="data-science">Data Science</button>
+                        <button class="filter-btn" data-filter="power-bi">PowerBI & Excel</button>
+                    </div>
+                    <div class="project-container">
+                        <a href="https://github.com/shreysisodiya/21ProjectsPythonrepository/tree/main/1" target="_blank" class="project-link" data-category="data-analytics">
+                            <div class="project-card">
+                                <img src="images/titanic.jpg" alt="Titanic Project">
+                                <h3>Datastory telling analysis surviving on the titanic</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/21ProjectsPythonrepository/tree/main/2" target="_blank" class="project-link" data-category="data-analytics">
+                            <div class="project-card">
+                                <img src="images/netflix.png" alt="Netflix Project">
+                                <h3>Cracking the code with Netflix content strategy</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/Gaana" target="_blank" class="project-link" data-category="data-analytics">
+                            <div class="project-card">
+                                <img src="images/Gaana.jpg" alt="Gaana Project">
+                                <h3>Gaana project</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/Airbnb" target="_blank" class="project-link" data-category="data-analytics">
+                            <div class="project-card">
+                                <img src="images/Airbnb.jpeg" alt="Airbnb Project">
+                                <h3>Airbnb project</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/21ProjectsPythonrepository/tree/main/4" target="_blank" class="project-link" data-category="data-science">
+                            <div class="project-card">
+                                <img src="images/heart disease prediction.jpg" alt="Heart Disease Prediction Project">
+                                <h3>Heart Disease Prediction (Classification)</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/21ProjectsPythonrepository/tree/main/3" target="_blank" class="project-link" data-category="data-science">
+                            <div class="project-card">
+                                <img src="images/House price prediction.png" alt="House Price Prediction Project">
+                                <h3>House Price Prediction (Regression) 🏠</h3>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shreysisodiya/Powerbi-and-Excel-dashboard-" target="_blank" class="project-link" data-category="power-bi">
+                            <div class="project-card">
+                                <img src="images/powerbi.jpg" alt="PowerBI Project">
+                                <h3>PowerBI and Excel Dashboards</h3>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </article>
+
+            <article class="page" data-page="Contact">
+                <section>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <h2>Get In Touch</h2>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </section>
+            </article>
+
+            <article class="page" data-page="Location">
+                <section>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <h2>My Location</h2>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://maps.google.com/maps?q=Greater%20Noida%20201310&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="450" frameborder="0" style="border:0; border-radius: 8px;" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </article>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
